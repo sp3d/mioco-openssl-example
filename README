@@ -1,0 +1,7 @@
+A crate which demonstrates using mioco to concurrently read and write to an OpenSSL TLS stream.
+
+I wanted an example like this, but couldn't find it, so I figured I would strip down the application I came up with and publish an understandable example.
+
+Using mio+OpenSSL without mioco would look roughly similar, though the code would be organized differently.
+
+Released under the WTFPL.
