@@ -1,0 +1,15 @@
+[package]
+name = "mioco-openssl-example"
+version = "0.1.0"
+authors = ["sp3d"]
+
+[[bin]]
+name = "example"
+
+[dependencies.mioco]
+version = "*"
+git = "https://github.com/dpc/mioco"
+
+[dependencies.openssl]
+features = ["tlsv1_2"]
+version = "0.7.0"
